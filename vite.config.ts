@@ -7,9 +7,9 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   server: {
-    host: "::",
-    port: 8080,
-    allowedHosts: ['rastaa.onrender.com'], // ✅ ADD THIS LINE
+    host: "0.0.0.0", // Correct format, no colons
+    port: 8080, // Any valid number
+    allowedHosts: ['rastaa.onrender.com'], // Allow only this host
   },
   plugins: [
     react(),
