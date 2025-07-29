@@ -1,3 +1,7 @@
+"scripts": {
+  "postinstall": "npx update-browserslist-db@latest --quiet"
+}
+
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
